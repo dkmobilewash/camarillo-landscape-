@@ -13,6 +13,8 @@ export interface ServiceArea {
   tagline: string;
   title: string;
   metaDescription: string;
+  /** Photo used for the hero background and intro */
+  image: string;
   /** One specific sentence used in the hero */
   heroLine: string;
   intro: string[];
@@ -34,6 +36,8 @@ export const serviceAreas: ServiceArea[] = [
     title: 'Landscaping in Camarillo, CA | Camarillo Landscape Solutions',
     metaDescription:
       'Professional landscaping services in Camarillo, CA. Design, installation, hardscaping, irrigation, and maintenance for Camarillo homeowners and HOAs. Call 805-398-6469.',
+    image:
+      'https://media.istockphoto.com/id/2155899758/photo/modern-new-construction-home-in-los-angeles.jpg?s=612x612&w=0&k=20&c=g0qRJZA6QxAeCO6f1-9LhM7GrASEEaP1_030mX0Rc3I=',
     heroLine:
       'From Pleasant Valley to the newest master-planned tracts, Camarillo is where our crews work every single day.',
     intro: [
@@ -94,6 +98,8 @@ export const serviceAreas: ServiceArea[] = [
     title: 'Landscaping in Mission Oaks, CA | Camarillo Landscape Solutions',
     metaDescription:
       'Landscaping services in Mission Oaks, CA. Lawn care, irrigation upgrades, and backyard transformations for this established Camarillo community. Call 805-398-6469.',
+    image:
+      'https://images-listings.century21.com/CRMLS/TR/26/08/17/55/_P/TR26081755_P48.jpg',
     heroLine:
       'Mission Oaks homes have great bones, and many are ready for an irrigation upgrade or a backyard reimagining.',
     intro: [
@@ -144,6 +150,8 @@ export const serviceAreas: ServiceArea[] = [
     title: 'Landscaping in Leisure Village Camarillo | Camarillo Landscape Solutions',
     metaDescription:
       'Low-maintenance landscaping for Leisure Village, Camarillo. Drought-tolerant designs, artificial turf, and maintenance for this 55+ community. Call 805-398-6469.',
+    image:
+      'https://media.istockphoto.com/id/2183289459/photo/design-of-landscaping-in-the-garden-park-square-recreation-area.jpg?s=612x612&w=0&k=20&c=A4nCdEJAAUGh9aqT4U3q-3NbAMupKhjLDG8abTeZI9M=',
     heroLine:
       'In Leisure Village, the goal is a gorgeous yard you enjoy, not one you have to work for.',
     intro: [
@@ -194,6 +202,8 @@ export const serviceAreas: ServiceArea[] = [
     title: 'Landscaping in Springville Camarillo | Camarillo Landscape Solutions',
     metaDescription:
       'Landscaping in Springville, Camarillo. Backyard upgrades, turf, paver patios, and irrigation for this newer master-planned neighborhood. Call 805-398-6469.',
+    image:
+      'https://photos.zillowstatic.com/fp/8a6f85f36835b922e233bfe305b45afa-cc_ft_960.jpg',
     heroLine:
       'Springville backyards often start as a blank slate, and that is the fun part.',
     intro: [
@@ -244,6 +254,8 @@ export const serviceAreas: ServiceArea[] = [
     title: 'Landscaping in Las Posas Estates | Camarillo Landscape Solutions',
     metaDescription:
       'Luxury landscaping in Las Posas Estates, Camarillo. Custom design, high-end hardscaping, outdoor kitchens, and lighting for larger estate lots. Call 805-398-6469.',
+    image:
+      'https://media.istockphoto.com/id/2168487231/photo/large-gray-pergola-on-pavers-with-stone-fireplace-and-waterfall-urns-for-backyard-oasis.jpg?s=612x612&w=0&k=20&c=r73pWzPWRGdZ7yl12LXrDZsErUIk1UEywS8P-NHW-Aw=',
     heroLine:
       'Larger lots, custom homes, and high expectations. Las Posas Estates is the premium end of Camarillo, and we treat it that way.',
     intro: [
@@ -294,6 +306,8 @@ export const serviceAreas: ServiceArea[] = [
     title: 'Landscaping in Somis, CA | Camarillo Landscape Solutions',
     metaDescription:
       'Landscaping in Somis, CA. Drought-tolerant designs, water-efficient irrigation, and low-maintenance landscaping for rural and larger-lot properties. Call 805-398-6469.',
+    image:
+      'https://media.istockphoto.com/id/164963728/photo/beautiful-summer-garden.jpg?s=612x612&w=0&k=20&c=NeQjkyBlB_0RY8vHhqPPn--4lmdtqgolsxmyp_lLQKY=',
     heroLine:
       'Surrounded by avocado and citrus groves, Somis calls for landscaping that respects its rural roots.',
     intro: [
@@ -344,6 +358,8 @@ export const serviceAreas: ServiceArea[] = [
     title: 'Landscaping in Santa Rosa Valley, CA | Camarillo Landscape Solutions',
     metaDescription:
       'Luxury landscaping in Santa Rosa Valley, CA. Full design/build, outdoor kitchens, landscape lighting, and hardscaping for estate and horse properties. Call 805-398-6469.',
+    image:
+      'https://media.istockphoto.com/id/2155899995/photo/backyard-with-a-fire-pit-in-a-new-construction-home-in-encino-california.jpg?s=612x612&w=0&k=20&c=U7XvrW_7EDR3c_ZFMJ-d7pGL0XDTYpNiNta8s7ZJmpE=',
     heroLine:
       'Horse properties, large estate lots, and custom homes. Santa Rosa Valley is built for ambitious outdoor living.',
     intro: [
@@ -394,6 +410,8 @@ export const serviceAreas: ServiceArea[] = [
     title: 'Landscaping in Calleguas Camarillo | Camarillo Landscape Solutions',
     metaDescription:
       'Landscaping in the Calleguas area of Camarillo. Maintenance programs, irrigation upgrades, and water-wise curb appeal improvements. Call 805-398-6469.',
+    image:
+      'https://media.istockphoto.com/id/2201667120/photo/beautiful-lawn-and-garden-path-in-a-uk-park-or-garden.jpg?s=612x612&w=0&k=20&c=93He--cEoPeNBqstGwNz4F0BWScm0A_uCb0jWaLQqFU=',
     heroLine:
       'Right in the Calleguas Municipal Water District, this is where smart irrigation really pays off.',
     intro: [
@@ -444,6 +462,8 @@ export const serviceAreas: ServiceArea[] = [
     title: 'Landscaping in Dos Vientos Ranch | Camarillo Landscape Solutions',
     metaDescription:
       'Landscaping in Dos Vientos Ranch, CA. Backyard transformations, turf, paver patios, and lighting with HOA-compliant design. Call 805-398-6469.',
+    image:
+      'https://media.istockphoto.com/id/1322531047/photo/backyard-deck-and-pergola.jpg?s=612x612&w=0&k=20&c=TddqinCfYfFFi-T1GuoHuQLGRhofgASxGII8dsO25SY=',
     heroLine:
       'Newer upscale homes, community trails, and strict HOA guidelines. We know the Dos Vientos standard.',
     intro: [
@@ -494,6 +514,8 @@ export const serviceAreas: ServiceArea[] = [
     title: 'Landscaping in Camarillo Heights, CA | Camarillo Landscape Solutions',
     metaDescription:
       'Landscaping in Camarillo Heights, CA. Retaining walls, slope stabilization, drought-tolerant hillside design, and native planting for elevated lots. Call 805-398-6469.',
+    image:
+      'https://media.istockphoto.com/id/1286520154/photo/safe-handling-of-a-very-heavy-granite-boulder-with-a-crane-the-stone-is-picked-up-and-tied.jpg?s=612x612&w=0&k=20&c=Nj6TY6ckVtJl4TqHRHaJACY6zYisd41yw17qzetURK0=',
     heroLine:
       'Elevated lots with views bring unique challenges, and slopes and retaining walls are our specialty here.',
     intro: [

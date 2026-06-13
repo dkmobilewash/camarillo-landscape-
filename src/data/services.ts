@@ -19,6 +19,8 @@ export interface Service {
   h1: string;
   title: string;
   metaDescription: string;
+  /** Project photos; [0] is used as the page hero background */
+  images: string[];
   intro: string[];
   benefits: ServiceBenefit[];
   process: ServiceStep[];
@@ -37,6 +39,11 @@ export const services: Service[] = [
     title: 'Landscape Design in Camarillo, CA | Camarillo Landscape Solutions',
     metaDescription:
       'Custom landscape design in Camarillo, CA. Drought-tolerant gardens, HOA-compliant designs, and full outdoor living spaces. Call 805-398-6469.',
+    images: [
+      'https://media.istockphoto.com/id/2245287606/photo/modern-minimalist-garden-with-stepping-stones-and-colorful-flowers.jpg?s=612x612&w=0&k=20&c=UU-UJNNEVZ_iwImfCpDex-Y0zGXA8h39qWBs2xUGsSY=',
+      'https://media.istockphoto.com/id/483785475/photo/professional-landscaping.jpg?s=612x612&w=0&k=20&c=9jzH5rBOGkTVSYvOg194G7_U2sC32u9KXXYp7vvZbcY=',
+      'https://media.istockphoto.com/id/153194946/photo/colorful-flower-garden.jpg?s=612x612&w=0&k=20&c=dPDsyi3bTz9iRIuRYKAxloHkINauALfXezrydhI006U=',
+    ],
     intro: [
       'A great Camarillo yard does not happen by accident. With our Mediterranean climate, strict HOA architectural standards, and the clean Spanish-style character that defines neighborhoods from Mission Oaks to Springville, the design phase is where a project is won or lost. Our landscape design service translates how you actually want to live outdoors into a buildable plan that earns approval and thrives in Ventura County conditions.',
       'We design with water in mind from the first sketch. Camarillo falls within the Calleguas Municipal Water District, and the smartest yards here pair California native and drought-tolerant planting with efficient hydrozoning so each area gets exactly the water it needs. The result reads lush and intentional without fighting the climate or the water bill.',
@@ -116,6 +123,11 @@ export const services: Service[] = [
     title: 'Hardscaping in Camarillo, CA | Pavers, Patios & Retaining Walls',
     metaDescription:
       'Professional hardscaping services in Camarillo. Paver patios, driveways, retaining walls, and outdoor living spaces. Call 805-398-6469.',
+    images: [
+      'https://media.istockphoto.com/id/1428026698/photo/hardscape-details-of-a-tumbled-paver-patio-flagstone-stepping-stones-and-horizontal-cedar.jpg?s=612x612&w=0&k=20&c=jchvL0WPgknOrxigRVwH-Latj6RWsDP7lrWUuSXiSyw=',
+      'https://media.istockphoto.com/id/117187022/photo/filtered-golden-sunlight-iluminates-rock-retaining-wall.jpg?s=612x612&w=0&k=20&c=qtnxwfdFGQp70HLBvRs-rEuokCfeld7iQWLmxvt7bvs=',
+      'https://media.istockphoto.com/id/471348728/photo/image-of-raised-garden-beds-with-flagstone-paving-patio-wheelchair-friendly.jpg?s=612x612&w=0&k=20&c=P2d0dSsrC8J1ZTIjHtPoyBM4tvVu8L0H2Rx3zvC9uAQ=',
+    ],
     intro: [
       'Hardscaping is the backbone of any usable Camarillo yard. Paver patios, walkways, driveways, seating walls, fire pits, and pergolas turn an ordinary backyard into space you actually live in, and they do it with materials that hold up beautifully under Southern California sun. Done well, hardscape also solves real problems: drainage, slope, and the awkward dead zones that grass never quite fixes.',
       'Camarillo homes lean Spanish and Mediterranean, so material and color selection matters. We help you choose pavers, stone, and finishes that complement tile roofs and stucco elevations rather than fighting them, and we keep selections within the palettes most local HOAs approve.',
@@ -195,6 +207,11 @@ export const services: Service[] = [
     title: 'Irrigation Systems in Camarillo, CA | Installation & Repair',
     metaDescription:
       'Irrigation installation, repair, and smart controller upgrades in Camarillo. Save water and stay compliant with local water restrictions. Call 805-398-6469.',
+    images: [
+      'https://media.istockphoto.com/id/172347234/photo/sprinklers-low.jpg?s=612x612&w=0&k=20&c=d4EU1xu-huGum55ABAtjfNWFpUDK3r2fl-WWOsKaC08=',
+      'https://media.istockphoto.com/id/2070995387/photo/close-up-of-latino-mans-hands-replacing-pipe-on-a-flower-bed-sprinkler.jpg?s=612x612&w=0&k=20&c=1kUHFaktHhjokwZwBvij2Ejw4on5VJKhRwOIagSnacI=',
+      'https://media.istockphoto.com/id/1224801898/photo/garden-water-system.jpg?s=612x612&w=0&k=20&c=SW8zfORUN6Ur7DP6UuEcciwXN-32SpY08TWZLJlZoj4=',
+    ],
     intro: [
       'In Camarillo, irrigation is where water bills are won or lost. Because the area is served by the Calleguas Municipal Water District and its member agencies, efficient watering is not just good practice, it is increasingly expected. A well-designed system delivers the right amount of water to the right zone at the right time, keeping plants healthy while cutting waste.',
       'We install and repair complete irrigation systems, convert thirsty spray zones to high-efficiency drip, and upgrade old timers to weather-based smart controllers that adjust automatically to local conditions. For many homeowners, a smart controller and drip conversion pays for itself through lower water use and healthier plants.',
@@ -270,6 +287,11 @@ export const services: Service[] = [
     title: 'Artificial Turf Installation in Camarillo, CA | Low-Maintenance Lawns',
     metaDescription:
       'Premium artificial turf installation in Camarillo. HOA-approved options, water savings, and beautiful lawns year-round. Call 805-398-6469.',
+    images: [
+      'https://www.patioproductions.com/cdn/shop/articles/Choosing_the_Best_Fake_Grass_for_a_Stylish_Backyard_Design-main-image_af3471c6-e6cd-466d-a414-f085bd5515e7.jpg?v=1769087122&width=2560',
+      'https://www.turfteamlandscaping.com/wp-content/uploads/2020/05/100616171_597795880843671_1026703174670483456_n-1.jpg',
+      'https://synlawncolorado.com/wp-content/uploads/2023/08/backyard-putting-green-yellow-flags.webp',
+    ],
     intro: [
       'Artificial turf has become one of the most popular water-wise upgrades in Camarillo, and for good reason. A quality synthetic lawn stays perfectly green through dry summers and water restrictions, eliminates mowing and fertilizing, and stands up to kids, pets, and play without turning into mud or dead patches.',
       'The key in Camarillo is choosing the right product and installing it correctly. Modern turf looks remarkably natural, and many local HOAs now permit it as a recognized water conservation measure, though most still review the specific product and the front-yard design. We help you select HOA-friendly turf and document it for approval.',
@@ -345,6 +367,10 @@ export const services: Service[] = [
     title: 'Landscape Lighting in Camarillo, CA | Outdoor & Garden Lighting',
     metaDescription:
       'Professional landscape lighting in Camarillo. Path lights, accent lighting, and security lighting for Camarillo homes. Call 805-398-6469.',
+    images: [
+      'https://media.istockphoto.com/id/2150168202/photo/elegant-and-modern-garden-led-lighting.jpg?s=612x612&w=0&k=20&c=QsS03RA0FvXo7JQ91cCourIBIxpjLHAS040Fo8UWPsc=',
+      'https://media.istockphoto.com/id/1418463108/photo/decorative-backyard-garden-illuminated-by-garden-lighting.jpg?s=612x612&w=0&k=20&c=0uAkhsE-gnPeVVd9nesxMqXFzT4zU1ReHifYAb34ipY=',
+    ],
     intro: [
       'Landscape lighting is the upgrade that doubles the value of everything else in your yard. The patio you built, the trees you love, the architecture of your Spanish-style home, all of it disappears at sunset unless it is lit well. A thoughtfully designed low-voltage system extends your curb appeal and your usable outdoor hours long after dark.',
       'In Camarillo, lighting also plays a practical role. Path and step lighting make walkways safe, and well-placed security lighting adds peace of mind in master-planned neighborhoods. The trick is balance: enough light to be safe and beautiful, without the glare that bothers neighbors or runs afoul of HOA guidelines.',
@@ -416,6 +442,11 @@ export const services: Service[] = [
     title: 'Lawn Maintenance in Camarillo, CA | Yard Care & Upkeep',
     metaDescription:
       'Professional lawn and yard maintenance in Camarillo. Mowing, pruning, fertilization, weed control, and HOA-standard upkeep. Call 805-398-6469.',
+    images: [
+      'https://media.istockphoto.com/id/2150853972/photo/green-grass-cutting-with-lawn-mower-in-home-garden.jpg?s=612x612&w=0&k=20&c=EzSmAvWSwnbVbJxJP6fsMIDbGnPDmJ_VgpBUVUbO1aM=',
+      'https://media.istockphoto.com/id/2075732166/photo/elevated-view-of-a-man-using-a-riding-lawnmower-to-cut-grass-in-straight-lines.jpg?s=612x612&w=0&k=20&c=m2yAo0x_JkU_INfCYtHF083ByMswOWozhbJdGr7hu3w=',
+      'https://media.istockphoto.com/id/1368434564/photo/mowed-lawn-in-a-garden.jpg?s=612x612&w=0&k=20&c=rcMAnQHMqIYhL7KQ89RKgkEef_ykxatBD80V5Gz_9lE=',
+    ],
     intro: [
       'A beautiful landscape only stays beautiful with consistent care, and in Camarillo, consistent care often means HOA-standard care. Many communities expect lawns mowed, edges crisp, beds weeded, and shrubs shaped on a regular cadence. Our maintenance programs keep your property looking sharp and your HOA satisfied without you lifting a finger.',
       'We build maintenance around your property and your standards. That includes mowing and edging, pruning and shrub shaping, fertilization, weed control, and seasonal cleanups, all on a weekly or bi-weekly schedule that matches how your landscape actually grows through the Camarillo seasons.',
@@ -487,6 +518,11 @@ export const services: Service[] = [
     title: 'Sod Installation in Camarillo, CA | New Lawn Installation',
     metaDescription:
       "Professional sod installation in Camarillo, CA. The right grass varieties for Ventura County's climate, properly installed. Call 805-398-6469.",
+    images: [
+      'https://media.istockphoto.com/id/1212427333/photo/removal-of-old-turf-around-a-new-stepping-stone-walkway-in-preperation-for-the-installation.jpg?s=612x612&w=0&k=20&c=cXlOPTyGKyI-f06C8lW_7rQg4vt_vnsoA-8hUHSiAlY=',
+      'https://media.istockphoto.com/id/1387980624/photo/grass-field-meadow-green-on-the-garden-front-of-the-house.jpg?s=612x612&w=0&k=20&c=DeCFI5D28BmbzQMefRK9WZBd_2dSLMsiAg4aSrlnpHU=',
+      'https://media.istockphoto.com/id/1213614282/photo/bulldozer-moving-leveling-ground-at-construction-site.jpg?s=612x612&w=0&k=20&c=J--K5PNYcy_PIjbm-HoGOlIuOgRh4yy18NaLaC7BU1A=',
+    ],
     intro: [
       'When you want a real, living lawn and you want it now, sod is the answer. Instead of waiting months for seed to fill in, sod gives you an instant, established lawn in a single day. The difference between a lawn that thrives and one that struggles, though, comes down to choosing the right grass for Camarillo and preparing the soil correctly.',
       "Ventura County's climate suits several grass types. Tall fescue offers a soft, green, sun-and-shade-tolerant lawn that many Camarillo families love; Bermuda is tough and heat- and drought-resistant for full-sun, high-traffic yards; and Zoysia delivers a dense, low-water lawn that handles our summers well. We help you match variety to your light, use, and water goals.",
@@ -558,6 +594,11 @@ export const services: Service[] = [
     title: 'Outdoor Kitchens & BBQ Islands in Camarillo, CA',
     metaDescription:
       'Custom outdoor kitchens and BBQ islands in Camarillo. Built-in grills, countertops, bar seating, and full outdoor entertainment spaces. Call 805-398-6469.',
+    images: [
+      'https://media.istockphoto.com/id/1211179492/photo/backyard-hardscape-patio-with-outdoor-barbecue-and-kitchen.jpg?s=612x612&w=0&k=20&c=z768rV5wm1901kArG-Jvk2eLi3SwjNZbbyjb-EDRKvs=',
+      'https://media.istockphoto.com/id/2175974253/photo/modern-outdoor-kitchen-and-dining-area.jpg?s=612x612&w=0&k=20&c=eCNsPRDfUVKMmad9WRg3ub68Ox2EphECxCP1g9EXUU0=',
+      'https://media.istockphoto.com/id/2155879513/photo/the-outdoor-kitchen-with-a-fireplace-table-and-chairs-at-dusk.jpg?s=612x612&w=0&k=20&c=o_sPQ108OWJQfGiu4rCJBROhVWoVAOjhdfRh_gscLhI=',
+    ],
     intro: [
       "Camarillo's mild, sunny climate practically begs for outdoor living, and an outdoor kitchen is how you make the most of it. With comfortable weather most of the year, a built-in grill, prep counter, and bar seating turn your backyard into the spot where every gathering naturally ends up, no running back and forth to the indoor kitchen.",
       'We design and build custom BBQ islands and full outdoor kitchens around how you cook and entertain. That can mean a sleek built-in grill and counter for weeknight dinners, or a complete setup with side burners, refrigeration, a bar, and a pergola for hosting. Materials are chosen to complement your home and stand up to the elements.',

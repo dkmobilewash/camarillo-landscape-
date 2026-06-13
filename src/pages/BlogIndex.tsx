@@ -31,6 +31,7 @@ export default function BlogIndex() {
         eyebrow="Resources"
         title="The Camarillo Landscaping Blog"
         subtitle="Practical, local advice to help you plan a better outdoor space."
+        image="https://media.istockphoto.com/id/153194946/photo/colorful-flower-garden.jpg?s=612x612&w=0&k=20&c=dPDsyi3bTz9iRIuRYKAxloHkINauALfXezrydhI006U="
       />
       <Breadcrumb items={[{ label: 'Home', to: routes.home }, { label: 'Blog' }]} />
 

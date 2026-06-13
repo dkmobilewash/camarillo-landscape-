@@ -70,6 +70,7 @@ export default function Home() {
         eyebrow="Camarillo, CA"
         title="Camarillo's Landscaping & Outdoor Living Experts"
         subtitle="Serving Mission Oaks, Las Posas Estates, Santa Rosa Valley, Dos Vientos Ranch, and the entire Camarillo area."
+        image="https://media.istockphoto.com/id/2155899861/photo/backyard-pool-in-a-verdant-garden-setting-in-a-modern-new-construction-home-in-los-angeles.jpg?s=612x612&w=0&k=20&c=KPb4CssXWXTPInXz7SKEvk30Ilh7UOsq3nLeuMWnkNo="
       >
         <Link to={routes.contact} className="btn btn-primary">
           Get a Free Estimate

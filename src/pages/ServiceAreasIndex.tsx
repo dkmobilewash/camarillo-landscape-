@@ -23,6 +23,7 @@ export default function ServiceAreasIndex() {
         eyebrow="Where We Work"
         title="Our Service Areas"
         subtitle="Local landscaping expertise across Camarillo and every surrounding community."
+        image="https://media.istockphoto.com/id/164963728/photo/beautiful-summer-garden.jpg?s=612x612&w=0&k=20&c=NeQjkyBlB_0RY8vHhqPPn--4lmdtqgolsxmyp_lLQKY="
       >
         <Link to={routes.contact} className="btn btn-primary">
           Get a Free Estimate

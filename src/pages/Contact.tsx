@@ -23,6 +23,7 @@ export default function Contact() {
         eyebrow="Free Estimate"
         title="Request Your Free Estimate"
         subtitle="Tell us about your Camarillo project and we'll be in touch within one business day."
+        image="https://media.istockphoto.com/id/2185699288/photo/modern-patio-with-vibrant-sunset-sky.jpg?s=612x612&w=0&k=20&c=XeUAGuVCURbqzC1HjWlM-KrcDTa0-j5Te8I04wCRp8Y="
       />
       <Breadcrumb items={[{ label: 'Home', to: routes.home }, { label: 'Free Estimate' }]} />
 

@@ -6,7 +6,7 @@ import SectionEyebrow from '../components/SectionEyebrow';
 import ServiceCard from '../components/ServiceCard';
 import FaqAccordion from '../components/FaqAccordion';
 import CtaSection from '../components/CtaSection';
-import ImagePlaceholder from '../components/ImagePlaceholder';
+import Photo from '../components/Photo';
 import { useFadeUp } from '../hooks/useFadeUp';
 import type { ServiceArea } from '../data/serviceAreas';
 import { serviceAreaMap } from '../data/serviceAreas';
@@ -37,6 +37,7 @@ export default function ServiceAreaPage({ area }: { area: ServiceArea }) {
         eyebrow="Service Area"
         title={`Landscaping Services in ${area.displayName}`}
         subtitle={area.heroLine}
+        image={area.image}
       >
         <Link to={routes.contact} className="btn btn-primary">
           Get a Free Estimate
@@ -65,7 +66,12 @@ export default function ServiceAreaPage({ area }: { area: ServiceArea }) {
             ))}
           </div>
           <div className="fade-up">
-            <ImagePlaceholder label={`${area.name} neighborhood landscaping`} ratio="3/4" />
+            <Photo
+              src={area.image}
+              alt={`Landscaping in ${area.name}`}
+              label={`${area.name} neighborhood landscaping`}
+              ratio="3/4"
+            />
           </div>
         </div>
       </section>

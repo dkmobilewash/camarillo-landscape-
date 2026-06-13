@@ -7,7 +7,7 @@ import ProcessSteps from '../components/ProcessSteps';
 import FaqAccordion from '../components/FaqAccordion';
 import CtaSection from '../components/CtaSection';
 import YouMayAlsoNeed from '../components/YouMayAlsoNeed';
-import ImagePlaceholder from '../components/ImagePlaceholder';
+import Photo from '../components/Photo';
 import { useFadeUp } from '../hooks/useFadeUp';
 import { serviceMap, relatedServices } from '../data/services';
 import { serviceAreas } from '../data/serviceAreas';
@@ -46,7 +46,12 @@ export default function ServicePage() {
         canonical={canonical}
         schema={schema}
       />
-      <PageHero eyebrow="Our Services" title={service.h1} subtitle={service.cardDescription}>
+      <PageHero
+        eyebrow="Our Services"
+        title={service.h1}
+        subtitle={service.cardDescription}
+        image={service.images[0]}
+      >
         <Link to={routes.contact} className="btn btn-primary">
           Get a Free Estimate
         </Link>
@@ -74,7 +79,12 @@ export default function ServicePage() {
             ))}
           </div>
           <div className="fade-up">
-            <ImagePlaceholder label={`${service.name} project photo`} ratio="3/4" />
+            <Photo
+              src={service.images[1] ?? service.images[0]}
+              alt={`${service.name} project in Camarillo`}
+              label={`${service.name} project photo`}
+              ratio="3/4"
+            />
             <div className="mt-4 border-l-4 border-gold bg-cream p-5">
               <p className="font-heading uppercase text-navy">Free Estimates</p>
               <p className="mt-1 text-sm text-mid">
@@ -144,6 +154,20 @@ export default function ServicePage() {
               <div key={x.t} className="fade-up border-l-4 border-gold bg-white/5 p-6">
                 <h3 className="text-white">{x.t}</h3>
                 <p className="mt-2 text-sm text-cream/80">{x.d}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Gallery */}
+      <section className="bg-section-alt section-pad">
+        <div className="container-x">
+          <SectionEyebrow eyebrow="Our Work" heading={`${service.name} in Action`} align="center" />
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {service.images.map((src, i) => (
+              <div key={i} className="fade-up overflow-hidden border-l-4 border-gold shadow-sm">
+                <Photo src={src} alt={`${service.name} example ${i + 1}`} ratio="4/3" />
               </div>
             ))}
           </div>

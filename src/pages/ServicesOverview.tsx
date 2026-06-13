@@ -32,6 +32,7 @@ export default function ServicesOverview() {
         eyebrow="Our Services"
         title="Landscaping Services in Camarillo, CA"
         subtitle="Complete outdoor solutions for Camarillo homes and HOAs, from first design to ongoing care."
+        image="https://i0.wp.com/dennis7dees.com/wp-content/uploads/2021/08/modern-woodland-9.jpg?fit=1200%2C800&ssl=1"
       >
         <Link to={routes.contact} className="btn btn-primary">
           Get a Free Estimate

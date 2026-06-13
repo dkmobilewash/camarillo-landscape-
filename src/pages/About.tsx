@@ -4,7 +4,7 @@ import PageHero from '../components/PageHero';
 import Breadcrumb from '../components/Breadcrumb';
 import SectionEyebrow from '../components/SectionEyebrow';
 import CtaSection from '../components/CtaSection';
-import ImagePlaceholder from '../components/ImagePlaceholder';
+import Photo from '../components/Photo';
 import { useFadeUp } from '../hooks/useFadeUp';
 import { serviceAreas } from '../data/serviceAreas';
 import { business } from '../data/business';
@@ -43,6 +43,7 @@ export default function About() {
         eyebrow="About Us"
         title="Your Local Camarillo Landscaping Team"
         subtitle={business.tagline}
+        image="https://media.istockphoto.com/id/2207150760/photo/professional-gardener-trimming-hedge.jpg?s=612x612&w=0&k=20&c=IXUvhVJhIXcLY3cO6-2O8OWzVI6BtXksygpqouoyBp8="
       >
         <Link to={routes.contact} className="btn btn-primary">
           Get a Free Estimate
@@ -76,7 +77,12 @@ export default function About() {
             </p>
           </div>
           <div className="fade-up">
-            <ImagePlaceholder label="Camarillo Landscape Solutions crew on site" ratio="4/3" />
+            <Photo
+              src="https://media.istockphoto.com/id/483785475/photo/professional-landscaping.jpg?s=612x612&w=0&k=20&c=9jzH5rBOGkTVSYvOg194G7_U2sC32u9KXXYp7vvZbcY="
+              alt="Camarillo Landscape Solutions professional landscaping work"
+              label="Camarillo Landscape Solutions crew on site"
+              ratio="4/3"
+            />
           </div>
         </div>
       </section>
