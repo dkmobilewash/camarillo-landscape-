@@ -90,7 +90,7 @@ export default function ServicePage() {
               <p className="mt-1 text-sm text-mid">
                 Licensed &amp; insured, local to Camarillo, and happy to answer your questions.
               </p>
-              <a href={business.phoneHref} className="mt-3 inline-block font-heading text-lg text-gold">
+              <a href={business.phoneHref} className="mt-3 inline-block font-heading text-lg text-gold-deep hover:text-navy">
                 {business.phone}
               </a>
             </div>
@@ -194,7 +194,7 @@ export default function ServicePage() {
             community, including{' '}
             {serviceAreas.map((a, i) => (
               <span key={a.slug}>
-                <Link to={routes.serviceArea(a.slug)} className="text-gold hover:text-gold-lt">
+                <Link to={routes.serviceArea(a.slug)} className="text-gold-deep hover:text-navy">
                   {a.name}
                 </Link>
                 {i < serviceAreas.length - 1 ? ', ' : '.'}

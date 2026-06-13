@@ -15,7 +15,8 @@ export default function SectionEyebrow({
 }: SectionEyebrowProps) {
   const centered = align === 'center';
   const headingColor = variant === 'dark' ? 'text-white' : 'text-navy';
-  const subColor = variant === 'dark' ? 'text-cream/80' : 'text-mid';
+  const subColor = variant === 'dark' ? 'text-cream/85' : 'text-mid';
+  const eyebrowColor = variant === 'dark' ? 'text-gold' : 'text-gold-deep';
 
   return (
     <div className={`mb-10 ${centered ? 'text-center' : ''}`}>
@@ -23,7 +24,7 @@ export default function SectionEyebrow({
         className={`mb-4 flex items-center gap-3 ${centered ? 'justify-center' : ''}`}
       >
         <span className="block h-[2px] w-10 bg-gold" />
-        <span className="font-heading uppercase tracking-widest text-gold text-sm">
+        <span className={`font-heading uppercase tracking-widest text-sm ${eyebrowColor}`}>
           {eyebrow}
         </span>
       </div>

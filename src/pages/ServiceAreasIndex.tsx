@@ -47,7 +47,7 @@ export default function ServiceAreasIndex() {
               >
                 <h3 className="text-navy">{a.name}</h3>
                 <p className="mt-2 flex-1 text-sm text-mid">{a.tagline}</p>
-                <span className="mt-4 font-heading text-sm uppercase tracking-wide text-gold group-hover:text-gold-lt">
+                <span className="mt-4 font-heading text-sm uppercase tracking-wide text-gold-deep group-hover:text-navy">
                   View Area →
                 </span>
               </Link>

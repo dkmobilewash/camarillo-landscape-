@@ -6,6 +6,7 @@
   --color-navy: #1b2b3a;
   --color-gold: #b8863b;
   --color-gold-lt: #d4a45a;
+  --color-gold-deep: #8a6321; /* darker gold for text on light backgrounds (AA contrast) */
   --color-cream: #f5f0e8;
   --color-white: #ffffff;
   --color-charcoal: #2c2c2c;

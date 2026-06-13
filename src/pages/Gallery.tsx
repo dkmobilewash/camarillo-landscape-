@@ -104,7 +104,7 @@ export default function Gallery() {
           </div>
           <p className="mt-10 text-center text-mid">
             Want to see something specific?{' '}
-            <Link to={routes.contact} className="text-gold hover:text-gold-lt">
+            <Link to={routes.contact} className="text-gold-deep hover:text-navy">
               Get in touch
             </Link>{' '}
             and we&apos;ll share relevant project examples for your neighborhood.

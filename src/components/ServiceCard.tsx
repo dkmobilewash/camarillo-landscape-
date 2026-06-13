@@ -16,7 +16,7 @@ export default function ServiceCard({ to, title, description, icon }: ServiceCar
       {icon && <span className="mb-3 text-3xl">{icon}</span>}
       <h3 className="text-navy">{title}</h3>
       <p className="mt-3 flex-1 text-mid">{description}</p>
-      <span className="mt-4 font-heading text-sm uppercase tracking-wide text-gold group-hover:text-gold-lt">
+      <span className="mt-4 font-heading text-sm uppercase tracking-wide text-gold-deep group-hover:text-navy">
         Learn More →
       </span>
     </Link>

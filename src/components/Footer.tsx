@@ -22,8 +22,8 @@ export default function Footer() {
               </span>
               <span className="font-serif text-sm italic text-gold">Solutions</span>
             </div>
-            <p className="mt-4 font-serif italic text-cream/70">{business.tagline}</p>
-            <p className="mt-4 text-sm text-cream/60">{business.license}</p>
+            <p className="mt-4 font-serif italic text-cream/85">{business.tagline}</p>
+            <p className="mt-4 text-sm text-cream/80">{business.license}</p>
           </div>
 
           {/* Services */}
@@ -92,7 +92,7 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-white/10">
-        <div className="container-x flex flex-col gap-2 py-5 text-xs text-cream/55 md:flex-row md:items-center md:justify-between">
+        <div className="container-x flex flex-col gap-2 py-5 text-xs text-cream/75 md:flex-row md:items-center md:justify-between">
           <span>© {year} {business.name}. All Rights Reserved.</span>
           <span className="md:text-right">
             Proudly serving Mission Oaks, Leisure Village, Las Posas Estates, Santa Rosa Valley, and

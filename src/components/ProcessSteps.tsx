@@ -13,7 +13,7 @@ export default function ProcessSteps({ steps }: { steps: Step[] }) {
         <div key={i} className="relative bg-white p-7">
           <span
             aria-hidden
-            className="font-heading text-5xl font-bold leading-none text-rule"
+            className="font-heading text-5xl font-bold leading-none text-mid/50"
           >
             {String(i + 1).padStart(2, '0')}
           </span>

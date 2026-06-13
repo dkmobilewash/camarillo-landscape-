@@ -31,7 +31,7 @@ export default function FaqAccordion({ faqs, variant = 'light' }: FaqAccordionPr
               <motion.span
                 animate={{ rotate: isOpen ? 45 : 0 }}
                 transition={{ duration: 0.25, ease: 'easeInOut' }}
-                className="shrink-0 text-2xl leading-none text-gold"
+                className={`shrink-0 text-2xl leading-none ${dark ? 'text-gold' : 'text-gold-deep'}`}
                 aria-hidden
               >
                 +

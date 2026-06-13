@@ -67,7 +67,7 @@ export default function ContactForm() {
         <h3 className="text-navy">Thank you!</h3>
         <p className="mt-3 text-mid">
           We&apos;ll be in touch within 1 business day. For faster service, call us at{' '}
-          <a href={business.phoneHref} className="font-semibold text-gold">
+          <a href={business.phoneHref} className="font-semibold text-gold-deep hover:text-navy">
             {business.phone}
           </a>
           .
@@ -168,7 +168,7 @@ function Field({
   return (
     <label className="block">
       <span className="mb-1.5 block font-heading text-xs uppercase tracking-wide text-navy">
-        {label} {required && <span className="text-gold">*</span>}
+        {label} {required && <span className="text-gold-deep">*</span>}
       </span>
       {children}
       {error && <span className="mt-1 block text-xs text-red-600">{error}</span>}

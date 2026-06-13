@@ -206,7 +206,7 @@ export default function Home() {
             <p className="text-mid">
               Tell us about your project and we&apos;ll get back to you within one business day.
               Prefer to talk now? Call{' '}
-              <a href={business.phoneHref} className="font-semibold text-gold">
+              <a href={business.phoneHref} className="font-semibold text-gold-deep hover:text-navy">
                 {business.phone}
               </a>
               .
@@ -214,7 +214,7 @@ export default function Home() {
             <ul className="mt-6 space-y-3 text-charcoal">
               <li>
                 <span className="font-heading uppercase text-navy">Phone:</span>{' '}
-                <a href={business.phoneHref} className="text-gold">
+                <a href={business.phoneHref} className="text-gold-deep hover:text-navy">
                   {business.phone}
                 </a>
               </li>

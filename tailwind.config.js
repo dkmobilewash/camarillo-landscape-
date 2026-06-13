@@ -7,6 +7,7 @@ export default {
         navy: 'var(--color-navy)',
         gold: 'var(--color-gold)',
         'gold-lt': 'var(--color-gold-lt)',
+        'gold-deep': 'var(--color-gold-deep)',
         cream: 'var(--color-cream)',
         charcoal: 'var(--color-charcoal)',
         mid: 'var(--color-mid)',

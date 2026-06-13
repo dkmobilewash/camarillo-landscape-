@@ -105,7 +105,7 @@ export default function BlogPost() {
           {post.content.map(renderSection)}
 
           <div className="mt-12 border-t border-rule pt-6">
-            <Link to={routes.blog} className="text-gold hover:text-gold-lt">
+            <Link to={routes.blog} className="text-gold-deep hover:text-navy">
               ← Back to all articles
             </Link>
           </div>

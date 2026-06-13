@@ -55,7 +55,7 @@ export default function BlogIndex() {
                 <p className="mt-2 flex-1 text-sm text-mid">{post.excerpt}</p>
                 <div className="mt-4 flex items-center justify-between">
                   <span className="text-xs text-mid">{formatDate(post.date)}</span>
-                  <span className="font-heading text-sm uppercase tracking-wide text-gold group-hover:text-gold-lt">
+                  <span className="font-heading text-sm uppercase tracking-wide text-gold-deep group-hover:text-navy">
                     Read →
                   </span>
                 </div>
