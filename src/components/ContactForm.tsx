@@ -54,11 +54,18 @@ export default function ContactForm() {
       return;
     }
     setSubmitting(true);
-    // No backend: simulate submit and show success state.
-    setTimeout(() => {
-      setSubmitting(false);
-      setSubmitted(true);
-    }, 500);
+// Send form data to Zapier webhook
+    fetch('https://hooks.zapier.com/hooks/catch/20117350/44fmixd/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        ...form,
+        website: 'Camarillo Landscape Design',
+        submittedAt: new Date().toISOString(),
+      }),
+    }).catch((e) => console.error('[Zapier Webhook Error]', e));
+    setSubmitting(false);
+    setSubmitted(true);
   }
 
   if (submitted) {
